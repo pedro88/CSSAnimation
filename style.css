@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-style: solid 2px;
+    padding: 10px;
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease-out
+}
+
+.btn1 {
+    transition: all 0.5s ease-out
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+}
+
+.btn2 {
+    transition: all 0.5s ease-out
+}
+
+.btn3:hover{
+    background-color: white;
+    color: black;
+    transform: translateX(50px);
+    transition: all 0.5s ease-out;
+}
+
+.btn3 {
+    transition: all 0.5s ease-out
+}
